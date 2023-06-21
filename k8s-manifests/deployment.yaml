@@ -17,7 +17,7 @@ spec:
         app: nextjs-app
     spec:
       containers:
-      - name: nextjs-container
+      - name: nextjsblog
         image: eonuallain/nextjs:latest
         ports:
         - containerPort: 3000
